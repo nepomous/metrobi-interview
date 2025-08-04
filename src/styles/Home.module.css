@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f9f9f9;
+}
+
+.header {
+  height: 60px;
+  background: #2ebded;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 4px;
+  margin-bottom: 4px;
+  font-size: 24px;
+}
+
+.subContainer {
+  display: flex;
+  flex: 1;
+}
+
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-right: 4px;
+}
+
+.hero {
+  flex: 2;
+  height: 120px;
+  background: #c38dde;
+  margin-bottom: 4px;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.sidebar {
+  flex: 3;
+  background: #5bc98a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.mainContentContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.mainContent {
+  flex: 2;
+  background: #dfc05a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  padding: 4px;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.extraContent {
+  flex: 1;
+  background: #646464;
+  padding: 4px;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.relatedContainer {
+  display: flex;
+  gap: 2px;
+  margin: 4px 0;
+  justify-content: center;
+}
+
+.relatedImages {
+  flex: 4;
+  background: #1eac2c;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  margin-right: 2px;
+  font-size: 24px;
+}
+
+.relatedPosts {
+  flex: 2;
+  width: 200px;
+  height: 120px;
+  background: #f78fe1;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.footer {
+  height: 50px;
+  background: #c48300;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
