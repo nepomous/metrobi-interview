@@ -63,9 +63,11 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   padding: 4px;
   color: #ffffff;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
   font-size: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .extraContent {
